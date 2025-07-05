@@ -80,13 +80,13 @@ st.markdown('</div>', unsafe_allow_html=True)
 # Input prompt box (like ChatGPT)
 prompt = st.text_area("💬 Type your game idea", placeholder="Type your game concept here...", label_visibility="collapsed")
 #Edition part 
-"""
-prompt = st.text_area("💬 Type your game idea", 
-                      value=voice_text if voice_text else "", 
-                      placeholder="Type your game concept here...", 
-                      label_visibility="collapsed", 
-                      key="game_prompt")
-""" 
+
+#prompt = st.text_area("💬 Type your game idea", 
+                     # value=voice_text if voice_text else "", 
+                     # placeholder="Type your game concept here...", 
+                     # label_visibility="collapsed", 
+                     # key="game_prompt")
+
 # Show mic icon as button
 st.markdown("""
     <button class="voice-btn" onclick="window.location.reload()">
