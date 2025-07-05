@@ -115,7 +115,8 @@ if generate:
         st.session_state.messages.append({"role": "ai", "content": response})
         st.success("Game generated successfully!")
         st.balloons()
-        st.experimental_rerun()
+       # st.experimental_rerun()
+        st.rerun()
 
 st.markdown("## 🎮 Trending Game Projects")
 
